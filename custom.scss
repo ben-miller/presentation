@@ -8,6 +8,13 @@ $mainFont: $font-family-sans-serif;
 $headingFont: $font-family-sans-serif;
 $headingFontWeight: 900;
 
+// Cap heading sizes so themes with large defaults (beige, league, moon…)
+// don't overflow the Japanese headings.
+$presentation-h1-font-size: 2em;
+$presentation-h2-font-size: 1.5em;
+$presentation-h3-font-size: 1.1em;
+$presentation-heading-text-shadow: none;
+
 /*-- scss:rules --*/
 .reveal,
 .reveal h1,
@@ -18,11 +25,15 @@ $headingFontWeight: 900;
   font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
 }
 
-// Title slide: breathing room under the huge title
-.reveal .title-slide h1.title {
-  margin-bottom: 0.5em;
+// Title slide
+.reveal h1.title {
+  font-size: 2.2em;
+  line-height: 1.4;
+  word-break: keep-all;
+  margin-bottom: 0.4em;
 }
-.reveal .title-slide .subtitle {
+.reveal .subtitle,
+.reveal p.subtitle {
   font-size: 0.5em;
   opacity: 0.7;
 }

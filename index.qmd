@@ -5,9 +5,20 @@ lang: ja
 mainfont: "Noto Sans JP"
 format:
   revealjs:
-    # Theme: swap this one line. Built-in options:
-    # default simple serif white black league night sky beige solarized moon dracula
-    theme: [simple, custom.scss]
+    # Theme: keep exactly one `theme:` line uncommented. custom.scss always rides along.
+    #theme: [beige, custom.scss]
+    #theme: [default, custom.scss]
+    #theme: [simple, custom.scss]
+    #theme: [serif, custom.scss]
+    #theme: [white, custom.scss]
+    #theme: [black, custom.scss]
+    #theme: [league, custom.scss]
+    #theme: [night, custom.scss]
+    #theme: [sky, custom.scss]
+    #theme: [solarized, custom.scss]
+    #theme: [moon, custom.scss]
+    #theme: [dracula, custom.scss]
+    theme: [blood, custom.scss]
     transition: none
     slide-number: false
     center: true
