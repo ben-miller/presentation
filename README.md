@@ -7,6 +7,10 @@ performance are handled (vs. the US).
 Theme: [`slidev-theme-penguin`](https://github.com/alvarosabu/slidev-theme-penguin)
 (a developer-talk theme; two-column layouts suit the JP/US contrast).
 
+**Live:** https://ben-miller.github.io/presentation/ — deployed from `main` by
+`.github/workflows/deploy.yml` (Slidev build → GitHub Pages). The transcript
+(`TRANSCRIPT.md`) renders directly in the GitHub file view, furigana included.
+
 ## The deck: 日本で働くのはつらい - 給料と成績の話
 
 `slides.md`, ~3 minutes, 11 slides. Thesis: hard work barely moves your pay,
