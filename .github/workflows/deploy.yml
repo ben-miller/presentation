@@ -5,13 +5,11 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# Allow the workflow to publish to Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# One concurrent deployment; newer pushes cancel in-progress runs
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -22,21 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: npm
+      - uses: quarto-dev/quarto-actions/setup@v2
 
-      - run: npm ci
+      # The deck -> dist/index.html (+ dist/index_files/)
+      - run: quarto render index.qmd --to revealjs --output-dir dist
 
-      # Repo is served at https://<user>.github.io/presentation/ , so the
-      # SPA must be built with that base path.
-      - run: npm run build -- --base /presentation/ --out dist
-
-      # Render the speaker transcript (furigana + English) and publish it
-      # alongside the deck at /presentation/transcript.html
+      # The speaker transcript -> dist/transcript.html
       - run: sudo apt-get update && sudo apt-get install -y pandoc
-      - run: npm run transcript -- --html
+      - run: bash scripts/build-transcript.sh --html
       - run: cp dist-transcript/TRANSCRIPT.html dist/transcript.html
 
       - uses: actions/upload-pages-artifact@v3

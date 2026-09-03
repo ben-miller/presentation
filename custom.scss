@@ -1,0 +1,64 @@
+/*-- scss:defaults --*/
+// Japanese webfont so the deck looks the same on any machine / on Pages.
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+
+$font-family-sans-serif: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic",
+  "Helvetica Neue", sans-serif !default;
+$mainFont: $font-family-sans-serif;
+$headingFont: $font-family-sans-serif;
+$headingFontWeight: 900;
+
+/*-- scss:rules --*/
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal p,
+.reveal li {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+// Title slide: breathing room under the huge title
+.reveal .title-slide h1.title {
+  margin-bottom: 0.5em;
+}
+.reveal .title-slide .subtitle {
+  font-size: 0.5em;
+  opacity: 0.7;
+}
+
+// Section-divider ("#") slides
+.reveal section.level1 {
+  text-align: center;
+}
+.reveal section.level1 h1 {
+  font-size: 1.9em;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+// Comparison columns
+.reveal .columns {
+  align-items: start;
+  gap: 2.5rem;
+}
+.reveal .columns h3 {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: 0.25em;
+  margin-bottom: 0.5em;
+}
+.reveal .columns ul {
+  line-height: 1.75;
+}
+
+// Big-word contrast slide
+.reveal .big-slide .columns { align-items: start; }
+.reveal .big {
+  font-size: 1.7em;
+  font-weight: 900;
+  line-height: 1.45;
+}
+.reveal .muted {
+  opacity: 0.55;
+  font-size: 0.9em;
+}
