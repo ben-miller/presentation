@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.slidev/
+*.log
+.grist-key
+*.pdf
+scratch-png/
+
+dist-transcript/
