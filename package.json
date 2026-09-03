@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "slidev",
     "build": "slidev build",
-    "export": "slidev export --output japanese-hr-comparison.pdf",
+    "export": "slidev export --output nihon-tsurai.pdf",
     "transcript": "bash scripts/build-transcript.sh"
   },
   "dependencies": {

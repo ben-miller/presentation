@@ -1,20 +1,31 @@
 # presentation
 
-Slidev decks. Currently: a Japanese-language deck comparing how **performance
-reviews and compensation** work at Japanese vs. American companies.
+Slidev decks. Currently: a Japanese-language talk arguing that **working at a
+traditional big Japanese company wears you down**, made through how pay and
+performance are handled (vs. the US).
 
 Theme: [`slidev-theme-penguin`](https://github.com/alvarosabu/slidev-theme-penguin)
-(a developer-talk theme; two-column layouts suit the JP/US comparison).
+(a developer-talk theme; two-column layouts suit the JP/US contrast).
 
-## The deck: 人事評価と報酬 - 日米比較
+## The deck: 日本で働くのはつらい - 給料と成績の話
 
-`slides.md`, ~3 minutes, 11 slides. Covers membership-type vs. job-type
-employment, 年功序列/職能給 vs. 成果主義/職務給, pay components, raises and
-transparency, how you get a raise, and how underperformers are handled.
+`slides.md`, ~3 minutes, 11 slides. Thesis: hard work barely moves your pay,
+because pay tracks age and tenure rather than contribution; weak performers are
+protected at the expense of everyone else; bonuses, raises, and pay data are all
+opaque. The US side is the contrast ("paid for what you did, for better and
+worse"). Closing: if you want to be paid for your ability, an old big Japanese
+company is the wrong place.
 
-**Layout convention:** two-column slides put **🇯🇵 Japan on the left, 🇺🇸 US on
-the right**. Section breaks use `layout: new-section`; the title uses
-`layout: intro`.
+This is an **argument, not a neutral comparison.** The nuance (job-type reforms
+at Hitachi/Fujitsu/KDDI; foreign firms and startups differ; US dysfunctions)
+lives in the presenter notes and `TRANSCRIPT.md`'s 補足 section, not the slides.
+
+**Japanese level:** roughly JLPT N3 - short sentences, everyday words, kana for
+heavier compounds. `TRANSCRIPT.md` adds furigana on top.
+
+**Layout convention:** two-column slides put **🇯🇵 the Japanese problem on the
+left, 🇺🇸 the US alternative on the right**. Section breaks use
+`layout: new-section`; the title uses `layout: intro`.
 
 ## Speaker script
 
@@ -76,7 +87,7 @@ penguin theme needs to build (its header component references a Twitter icon);
 | ---------------- | --------------------------------------------------- |
 | `npm run dev`    | Dev server with hot reload at http://localhost:3030 |
 | `npm run build`  | Static SPA build into `dist/`                       |
-| `npm run export` | Export the deck to `japanese-hr-comparison.pdf`     |
+| `npm run export` | Export the deck to `nihon-tsurai.pdf`     |
 
 Presenter mode with notes: `npm run dev`, then press `p` (or open
 `http://localhost:3030/presenter`). Hands-free notes that follow the live slide:
