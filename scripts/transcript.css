@@ -1,11 +1,11 @@
 /* Styling for the rendered speaker transcript (TRANSCRIPT.md -> HTML/PDF). */
 
 html {
-  font-size: 15px;
+  font-size: 24px;
 }
 
 body {
-  max-width: 42rem;
+  max-width: 48rem;
   margin: 2.5rem auto;
   padding: 0 1.25rem;
   font-family: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "YuMincho",
