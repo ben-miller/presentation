@@ -3,8 +3,10 @@
 ### ▶ [Slides](https://ben-miller.github.io/presentation/) &nbsp;·&nbsp; [Transcript](https://ben-miller.github.io/presentation/transcript.html) (furigana + English)
 
 A [Quarto](https://quarto.org) → reveal.js talk, in Japanese, arguing that
-**working at a traditional big Japanese company wears you down**, made through
-how pay and performance are handled (vs. the US).
+**working at a traditional big Japanese company wears you down**: pay tracks age,
+tenure and presence rather than contribution, so effort goes into *looking*
+committed - long hours, not leaving before the boss - instead of results. Work
+is largely **performative, not performance-driven** (vs. the US).
 
 Was Slidev; moved to Quarto because Slidev themes aren't swappable (each theme
 ships its own Vue layouts). Quarto reveal.js themes are plain SCSS - every slide
