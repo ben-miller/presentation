@@ -27,13 +27,48 @@ format:
     menu: false
     progress: false
     embed-resources: false
+resources:
+  - images/
 ---
 
-# がんばっても、<br>給料は変わらない
+## &nbsp; {background-image="images/collage.jpg" background-size="cover" background-opacity="0.9"}
+
+::: {.notes}
+これは日本の通勤の風景です。働きすぎて、電車やホームで寝てしまうサラリーマン。「日本で働くのはつらい」というのは、まずこういうことです。
+:::
+
+## がんばっても、<br>給料は変わらない {.divider background-image="images/train.jpg" background-size="cover" background-opacity="0.3"}
 
 ::: {.notes}
 まず結論です。日本の大きい会社では、がんばっても給料はほとんど変わりません。
 補足：ここで言う「日本の会社」は昔からある大きい会社のこと。外資やスタートアップ、そして新しいやり方に変えている一部の大企業は当てはまりません。
+:::
+
+## キャリアと給料 {.chart-slide}
+
+```{=html}
+<svg viewBox="0 0 900 460" class="pay-chart" xmlns="http://www.w3.org/2000/svg">
+  <!-- axes -->
+  <line x1="70" y1="30" x2="70" y2="400" stroke="currentColor" stroke-width="2"/>
+  <line x1="70" y1="400" x2="850" y2="400" stroke="currentColor" stroke-width="2"/>
+  <text x="60" y="24" text-anchor="end" font-size="20" fill="currentColor">給料</text>
+  <text x="850" y="430" text-anchor="end" font-size="20" fill="currentColor">キャリア →</text>
+  <!-- US: step function, big jumps -->
+  <polyline fill="none" stroke="#e23b3b" stroke-width="5"
+    points="70,370 210,370 210,290 360,290 360,180 510,180 510,90 700,90 700,55 850,55"/>
+  <circle cx="360" cy="290" r="7" fill="#e23b3b"/>
+  <circle cx="510" cy="180" r="7" fill="#e23b3b"/>
+  <circle cx="700" cy="90" r="7" fill="#e23b3b"/>
+  <text x="720" y="48" font-size="24" fill="#e23b3b" font-weight="700">🇺🇸 転職・昇進</text>
+  <!-- JP: gentle smooth slope -->
+  <path fill="none" stroke="#4a90d9" stroke-width="5"
+    d="M70,378 C300,368 500,340 850,300"/>
+  <text x="620" y="290" font-size="24" fill="#4a90d9" font-weight="700">🇯🇵 毎年 少しずつ</text>
+</svg>
+```
+
+::: {.notes}
+給料の伸び方のイメージです。日本は青い線。毎年少しずつ、なだらかに上がるだけ。アメリカは赤い線。転職や昇進のたびに、大きく段になって上がっていきます。
 :::
 
 ## 給料はどう決まる？
@@ -181,7 +216,7 @@ format:
 日本は給料の表を見せてもらえません。自分がどのくらいの位置にいるのか、わかりません。話し合うという考えもありません。アメリカは給料のはんいが出ていて、くらべることも、話し合うこともできます。
 :::
 
-# つまり
+## つまり {.divider}
 
 ::: {.notes}
 まとめます。
@@ -212,7 +247,7 @@ format:
 日本の会社は、「会社にのこること」にお金をはらいます。「やったしごと」には、あまりはらいません。アメリカは「やったしごと」にはらいます。えこひいきや、短くしか考えないといったわるいところもありますが、少なくとも、成績とお金がつながっています。
 :::
 
-# 力で かせぎたいなら、<br>日本の大きい会社は むかない
+## 力で かせぎたいなら、<br>日本の大きい会社は むかない {.divider background-image="images/chalk.jpg" background-size="cover" background-opacity="0.28"}
 
 ::: {.notes}
 結論です。力でかせぎたいなら、昔からある日本の大きい会社は、むいていません。

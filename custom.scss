@@ -13,7 +13,6 @@ $headingFontWeight: 900;
 $presentation-h1-font-size: 2em;
 $presentation-h2-font-size: 1.5em;
 $presentation-h3-font-size: 1.1em;
-$presentation-heading-text-shadow: none;
 
 /*-- scss:rules --*/
 .reveal,
@@ -23,6 +22,17 @@ $presentation-heading-text-shadow: none;
 .reveal p,
 .reveal li {
   font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+// Some themes (blood, beige, …) paint a text-shadow on headings. Kill it —
+// it smears CJK glyphs.
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal .title,
+.reveal .subtitle {
+  text-shadow: none !important;
 }
 
 // Title slide
@@ -38,14 +48,15 @@ $presentation-heading-text-shadow: none;
   opacity: 0.7;
 }
 
-// Section-divider ("#") slides
-.reveal section.level1 {
+// Section-divider slides (## with {.divider})
+.reveal section.divider {
   text-align: center;
 }
-.reveal section.level1 h1 {
+.reveal section.divider h2 {
   font-size: 1.9em;
   line-height: 1.5;
   word-break: keep-all;
+  margin: 0;
 }
 
 // Comparison columns
@@ -72,4 +83,16 @@ $presentation-heading-text-shadow: none;
 .reveal .muted {
   opacity: 0.55;
   font-size: 0.9em;
+}
+
+// Inline SVG pay chart
+.reveal .pay-chart {
+  width: 85%;
+  max-height: 62vh;
+  display: block;
+  margin: 0.5em auto 0;
+  color: currentColor;
+}
+.reveal .chart-slide h2 {
+  margin-bottom: 0.2em;
 }
