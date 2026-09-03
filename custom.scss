@@ -85,6 +85,19 @@ $presentation-h3-font-size: 1.1em;
   font-size: 0.9em;
 }
 
+// Slide number — make it actually visible
+.reveal .slide-number {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  background: rgba(128, 128, 128, 0.35) !important;
+  padding: 4px 12px !important;
+  border-radius: 6px !important;
+  right: 14px !important;
+  bottom: 14px !important;
+}
+.reveal .slide-number a { color: inherit !important; }
+
 // Inline SVG pay chart
 .reveal .pay-chart {
   width: 85%;
