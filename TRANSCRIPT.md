@@ -1,10 +1,10 @@
-# 発表台本 — 日本で働くのはつらい（約3分）
+# 発表台本 — 日本で働くのはつらい
 
 ### ▶ スライド 1 —「日本で働くのはつらい」（表紙）
 
-<ruby>日本<rt>にほん</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きい<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>くのはつらい、という<ruby>話<rt>はなし</rt></ruby>をします。<ruby>理由<rt>りゆう</rt></ruby>は、<ruby>給料<rt>きゅうりょう</rt></ruby>の<ruby>決<rt>き</rt></ruby>まり<ruby>方<rt>かた</rt></ruby>にあります。<ruby>三分<rt>さんぷん</rt></ruby>で<ruby>話<rt>はな</rt></ruby>します。
+<ruby>日本<rt>にほん</rt></ruby>の<ruby>大<rt>おお</rt></ruby>きい<ruby>会社<rt>かいしゃ</rt></ruby>で<ruby>働<rt>はたら</rt></ruby>くのはつらい、という<ruby>話<rt>はなし</rt></ruby>をします。<ruby>理由<rt>りゆう</rt></ruby>は、<ruby>給料<rt>きゅうりょう</rt></ruby>の<ruby>決<rt>き</rt></ruby>まり<ruby>方<rt>かた</rt></ruby>にあります。
 
-> Working at a big Japanese company wears you down. The reason is in how pay gets decided. I'll cover it in three minutes.
+> Working at a big Japanese company wears you down. The reason is in how pay gets decided.
 
 ### ▶ スライド 2 —（サラリーマンの写真）
 

@@ -1,6 +1,6 @@
 ---
 title: "日本で働くのはつらい"
-subtitle: "給料の決まり方を見れば、その理由がわかる　― 約3分 ―"
+subtitle: "給料の決まり方を見れば、その理由がわかる"
 lang: ja
 mainfont: "Noto Sans JP"
 format:

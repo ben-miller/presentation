@@ -18,12 +18,12 @@ directly in the GitHub file view.
 
 ## The deck: `index.qmd`
 
-~3 minutes, 11 slides. Thesis: hard work barely moves your pay, because pay
-tracks age and tenure rather than contribution; weak performers are protected at
-everyone else's expense; bonuses, raises, and pay data are all opaque. The US
-side is the contrast ("paid for what you did, for better and worse"). Closing:
-if you want to be paid for your ability, an old big Japanese company is the
-wrong place.
+Thesis: hard work barely moves your pay, because pay tracks age, tenure and
+presence rather than contribution - so effort goes into *looking* committed
+(long hours, not leaving before the boss). Weak performers are protected at
+everyone else's expense. The US side is the contrast ("paid for what you did,
+for better and worse"). Closing: if you want to be paid for your ability, an old
+big Japanese company is the wrong place.
 
 This is an **argument, not a neutral comparison.** The nuance (job-type reforms
 at Hitachi/Fujitsu/KDDI; foreign firms and startups differ; US dysfunctions)
