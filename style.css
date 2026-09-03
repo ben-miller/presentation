@@ -1,0 +1,95 @@
+/*
+ * Deck-owned styling. Auto-loaded by Slidev (./style.css).
+ *
+ * The deck must look coherent under ANY theme (penguin, mokkapps, seriph,
+ * default). So it uses only layouts every theme provides -- `center` and
+ * `two-cols` -- plus its own classes (`cover`, `divider`, `cmp`, `big`), and
+ * does its own layout/typography here. `!important` on a few rules is
+ * deliberate: it stops an aggressive theme (e.g. mokkapps) from shrinking or
+ * greying our sub-headings. Themes still supply fonts and colours underneath.
+ */
+
+:root {
+  --deck-accent: #2563eb;
+  --deck-muted: #6b7280;
+  --deck-rule: #d4d4d8;
+}
+
+.slidev-layout {
+  padding: 3rem 4rem;
+}
+
+/* ---- title slide:  layout: center, class: cover ---- */
+.slidev-layout.cover {
+  text-align: center;
+}
+.slidev-layout.cover h1 {
+  font-size: 3.2rem !important;
+  line-height: 1.25;
+  font-weight: 800;
+  border: none;
+  margin-bottom: 1.2rem;
+}
+.slidev-layout.cover p {
+  font-size: 1.25rem;
+  color: var(--deck-muted);
+  margin: 0.3rem 0;
+}
+
+/* ---- divider slides:  layout: center, class: divider ---- */
+.slidev-layout.divider {
+  text-align: center;
+}
+.slidev-layout.divider h1 {
+  font-size: 2.9rem !important;
+  line-height: 1.35;
+  font-weight: 800;
+  border: none;
+}
+
+/* ---- comparison slides:  layout: two-cols, class: cmp ---- */
+.slidev-layout.cmp {
+  gap: 3.5rem;
+  align-content: start;
+}
+
+.slidev-layout.cmp h2 {
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
+  color: inherit !important;
+  opacity: 1 !important;
+  margin: 0 0 1rem !important;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--deck-rule);
+}
+
+.slidev-layout.cmp h3 {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  color: var(--deck-accent) !important;
+  opacity: 1 !important;
+  margin: 0.5rem 0 !important;
+}
+
+.slidev-layout.cmp ul {
+  font-size: 1.05rem !important;
+  margin: 0.6rem 0 0 !important;
+  padding-left: 1.1rem;
+  line-height: 1.9;
+  list-style: disc;
+}
+.slidev-layout.cmp li {
+  margin: 0.35rem 0;
+}
+.slidev-layout.cmp strong {
+  font-weight: 800;
+}
+
+/* big-word comparison (slide "会社にのこること / やったしごと") */
+.slidev-layout.cmp.big h1 {
+  font-size: 2.1rem !important;
+  line-height: 1.4;
+  font-weight: 800;
+  border: none;
+  margin: 0.1rem 0;
+}

@@ -1,7 +1,7 @@
 ---
-# Theme: keep exactly ONE theme line uncommented.
-# The deck only uses layouts common to all of them (intro, section,
-# two-cols, default), so switching is a one-line change.
+# Theme: keep exactly ONE theme line uncommented, then restart the dev server.
+# The deck styles itself in ./style.css and only uses layouts every theme
+# provides (center, two-cols), so switching is a one-line change.
 theme: penguin
 # theme: mokkapps
 # theme: seriph
@@ -18,14 +18,15 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
-layout: intro
+layout: center
+class: cover
 ---
 
 # 日本で働くのはつらい
 
 給料の決まり方を見れば、その理由がわかる
 
-<div class="pt-8 opacity-60">約3分 / Why working at a Japanese company wears you down</div>
+<div class="pt-6 opacity-60">約3分 / Why working at a Japanese company wears you down</div>
 
 <!--
 日本の大きい会社で働くのはつらい、という話をします。理由は、給料の決まり方にあります。三分で話します。
@@ -33,7 +34,8 @@ layout: intro
 -->
 
 ---
-layout: section
+layout: center
+class: divider
 ---
 
 # がんばっても、給料は変わらない
@@ -46,6 +48,7 @@ layout: section
 
 ---
 layout: two-cols
+class: cmp
 ---
 
 ## 🇯🇵 給料はどう決まる？
@@ -76,6 +79,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+class: cmp
 ---
 
 ## 🇯🇵 成績がよくても
@@ -100,6 +104,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+class: cmp
 ---
 
 ## 🇯🇵 成績がわるくても
@@ -123,6 +128,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+class: cmp
 ---
 
 ## 🇯🇵 ボーナス
@@ -147,6 +153,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+class: cmp
 ---
 
 ## 🇯🇵 給料を上げたいなら
@@ -173,6 +180,7 @@ layout: two-cols
 
 ---
 layout: two-cols
+class: cmp
 ---
 
 ## 🇯🇵 見える？ 見えない？
@@ -196,7 +204,8 @@ layout: two-cols
 -->
 
 ---
-layout: section
+layout: center
+class: divider
 ---
 
 # つまり
@@ -209,6 +218,7 @@ layout: section
 
 ---
 layout: two-cols
+class: cmp big
 ---
 
 ## 🇯🇵
@@ -234,7 +244,8 @@ layout: two-cols
 -->
 
 ---
-layout: section
+layout: center
+class: divider
 ---
 
 # 力で かせぎたいなら、<br>日本の 大きい会社は むかない
