@@ -42,7 +42,7 @@ pandoc "$SRC" \
   --to html5 \
   --standalone \
   --embed-resources \
-  --metadata pagetitle="発表台本 — 人事評価と報酬 日米比較" \
+  --metadata pagetitle="発表台本 — 日本で働くのはつらい" \
   --metadata lang=ja \
   --css scripts/transcript.css \
   --output "$HTML"

@@ -7,7 +7,7 @@ info: |
   「日本の大きい会社で働くのはつらい」を、給料の決まり方から話す。約3分。
   日本語は N3 くらい。左列 = 日本の問題 / 右列 = アメリカ。
   発表者ノート = 台本＋補足（ふりがな付き完全版は TRANSCRIPT.md）。
-showTranslations: true
+showTranslations: false
 drawings:
   persist: false
 transition: slide-left

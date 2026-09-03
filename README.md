@@ -7,9 +7,13 @@ performance are handled (vs. the US).
 Theme: [`slidev-theme-penguin`](https://github.com/alvarosabu/slidev-theme-penguin)
 (a developer-talk theme; two-column layouts suit the JP/US contrast).
 
-**Live:** https://ben-miller.github.io/presentation/ — deployed from `main` by
-`.github/workflows/deploy.yml` (Slidev build → GitHub Pages). The transcript
-(`TRANSCRIPT.md`) renders directly in the GitHub file view, furigana included.
+**Live:**
+- Deck: https://ben-miller.github.io/presentation/
+- Transcript (furigana + English): https://ben-miller.github.io/presentation/transcript.html
+
+Both are deployed from `main` by `.github/workflows/deploy.yml` (Slidev build +
+`npm run transcript` → GitHub Pages). `TRANSCRIPT.md` also renders directly in
+the GitHub file view.
 
 ## The deck: 日本で働くのはつらい - 給料と成績の話
 
