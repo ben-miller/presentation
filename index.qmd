@@ -20,13 +20,18 @@ format:
     #theme: [dracula, custom.scss]
     theme: [blood, custom.scss]
     transition: none
-    slide-number: false
+    slide-number: true
     center: true
     width: 1280
     height: 720
     menu: false
     progress: false
     embed-resources: false
+    # Shareable per-slide URLs: .../#/3 jumps to slide 3, and the URL
+    # updates (with browser history) as you navigate.
+    hash: true
+    hash-type: number
+    history: true
 resources:
   - images/
 ---
