@@ -32,11 +32,11 @@
 
 > In Japan, pay is officially decided by "the person's ability." But nobody measures ability. What actually goes up is your age and your years at that company. Stay a few years and it rises automatically. In America, pay is decided by the content of the job. The role has a price on it, and age barely matters.
 
-### ▶ スライド 5 —「何を がんばる？」（🇯🇵見せるために / 🇺🇸結果のために）
+### ▶ スライド 5 —「何を する？」（🇯🇵見せる / 🇺🇸やる）
 
-<ruby>給料<rt>きゅうりょう</rt></ruby>が<ruby>成果<rt>せいか</rt></ruby>で<ruby>決<rt>き</rt></ruby>まらないなら、<ruby>何<rt>なに</rt></ruby>をがんばるのか。<ruby>日本<rt>にほん</rt></ruby>では「<ruby>見<rt>み</rt></ruby>せること」です。<ruby>長<rt>なが</rt></ruby>く<ruby>会社<rt>かいしゃ</rt></ruby>にいる。<ruby>上司<rt>じょうし</rt></ruby>より<ruby>先<rt>さき</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>らない。いそがしそうにする。<ruby>仕事<rt>しごと</rt></ruby>が「する」ものではなく「<ruby>見<rt>み</rt></ruby>せる」ものになります。<ruby>残業<rt>ざんぎょう</rt></ruby>も、<ruby>仕事<rt>しごと</rt></ruby>があるからではなく、みんなが<ruby>残<rt>のこ</rt></ruby>っているから<ruby>残<rt>のこ</rt></ruby>る。だから、みんなつかれています。アメリカは<ruby>結果<rt>けっか</rt></ruby>で<ruby>見<rt>み</rt></ruby>られるので、<ruby>終<rt>お</rt></ruby>わったら<ruby>帰<rt>かえ</rt></ruby>ります。
+<ruby>給料<rt>きゅうりょう</rt></ruby>が<ruby>成果<rt>せいか</rt></ruby>で<ruby>決<rt>き</rt></ruby>まらないなら、<ruby>何<rt>なに</rt></ruby>をするか。<ruby>日本<rt>にほん</rt></ruby>では「<ruby>見<rt>み</rt></ruby>せること」です。<ruby>長<rt>なが</rt></ruby>く<ruby>会社<rt>かいしゃ</rt></ruby>にいて、<ruby>先<rt>さき</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>らない。<ruby>残業<rt>ざんぎょう</rt></ruby>も、<ruby>仕事<rt>しごと</rt></ruby>があるからではなく、みんなが<ruby>残<rt>のこ</rt></ruby>っているからします。だから、つかれます。アメリカは<ruby>結果<rt>けっか</rt></ruby>で<ruby>見<rt>み</rt></ruby>られるので、<ruby>終<rt>お</rt></ruby>わったら<ruby>帰<rt>かえ</rt></ruby>ります。
 
-> If pay isn't decided by results, what do you put your effort into? In Japan, into *looking* the part. Stay at the office late. Don't leave before your boss. Look busy. Work becomes something you *perform*, not something you *do*. Even overtime isn't because there's work — it's because everyone else is staying. So everyone is exhausted. In America you're judged on results, so when you're done, you go home.
+> If pay isn't set by results, what do you do? In Japan, you *look* busy. Stay late, don't leave before others. Overtime isn't about having work — it's because everyone else is staying. So you get tired. In America you're judged on results, so when you're done, you go home.
 
 ### ▶ スライド 6 —「成績がよくても」
 
