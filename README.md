@@ -4,8 +4,27 @@ Slidev decks. Currently: a Japanese-language talk arguing that **working at a
 traditional big Japanese company wears you down**, made through how pay and
 performance are handled (vs. the US).
 
-Theme: [`slidev-theme-penguin`](https://github.com/alvarosabu/slidev-theme-penguin)
-(a developer-talk theme; two-column layouts suit the JP/US contrast).
+## Theme (swappable)
+
+The `theme:` line in `slides.md` headmatter has commented alternatives — switch
+by moving the `#`:
+
+```yaml
+theme: penguin        # slidev-theme-penguin  (installed, current)
+# theme: mokkapps     # slidev-theme-mokkapps (installed)
+# theme: seriph       # built in, no install
+# theme: default      # built in, no install
+```
+
+The deck only uses layouts common to all four (`intro`, `section`, `two-cols`,
+`default`), so a swap is a one-line change and always builds. What changes is
+styling — fonts, heading sizes, colors, and per-theme chrome (e.g. mokkapps adds
+an author footer to every slide; penguin needs the `@iconify-json/*` dev deps).
+Both extra themes are in `package.json`, so `npm ci` / the deploy workflow cover
+them.
+
+Do **not** put `---` inside a headmatter comment: Slidev's frontmatter splitter
+scans for `---` and ignores YAML comments, so it truncates the block.
 
 **Live:**
 - Deck: https://ben-miller.github.io/presentation/

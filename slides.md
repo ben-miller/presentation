@@ -1,5 +1,11 @@
 ---
+# Theme: keep exactly ONE theme line uncommented.
+# The deck only uses layouts common to all of them (intro, section,
+# two-cols, default), so switching is a one-line change.
 theme: penguin
+# theme: mokkapps
+# theme: seriph
+# theme: default
 title: 日本で働くのはつらい - 給料と成績の話
 colorSchema: light
 highlighter: shiki
@@ -27,7 +33,7 @@ layout: intro
 -->
 
 ---
-layout: new-section
+layout: section
 ---
 
 # がんばっても、給料は変わらない
@@ -190,7 +196,7 @@ layout: two-cols
 -->
 
 ---
-layout: new-section
+layout: section
 ---
 
 # つまり
@@ -228,7 +234,7 @@ layout: two-cols
 -->
 
 ---
-layout: new-section
+layout: section
 ---
 
 # 力で かせぎたいなら、<br>日本の 大きい会社は むかない
